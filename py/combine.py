@@ -24,7 +24,7 @@ import seaborn; seaborn.set_style('ticks')
 from cardelli_unred import cardelli_reddening
 # from gen_methods import smooth,medfilt
 from methods import common_wavelength
-
+# Awesome comment 
 def main():
     root_dir = '/Users/jselsing/Work/X-Shooter/CompositeRedQuasar/processed_data/'
 
