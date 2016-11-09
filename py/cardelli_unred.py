@@ -60,7 +60,8 @@ def cardelli_reddening(wave, flux, ebv, R_V=3.1): #Compute the reddening curve v
     
         A_V = R_V * ebv
         A_lambda = A_V*(a + b/R_V)
-    
+        print A_V
+
         flux[i] = flux[i] * 10.**(0.4*A_lambda)
     
     return flux
